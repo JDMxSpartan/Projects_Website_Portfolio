@@ -3,11 +3,11 @@ body {
   font-family: Arial, sans-serif;
 }
 
-nav {
+.navbar {
   background-color: #01032f;
   overflow: hidden;
 }
-nav a {
+.navbar a {
   float: left;
   display: block;
   color: white;
@@ -15,6 +15,6 @@ nav a {
   padding: 14px 20px;
   text-decoration: none;
 }
-nav a:hover {
+.navbar a:hover {
   background-color: #0a0f4a;
 }
