@@ -4809,7 +4809,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #f85c70;
+  background-color: #47d8e0;
 }
 
 .nav-fill .nav-item {
@@ -11205,7 +11205,7 @@ a.text-warning:focus {
 }
 
 .text-danger {
-  color: #f85c70 !important;
+  color: #47d8e0 !important;
 }
 
 a.text-danger:hover,
@@ -11409,7 +11409,7 @@ p {
 }
 
 .breadcrumb .breadcrumb-item.active {
-  color: #495057;
+  color: #47d8e0;
 }
 
 .btn-rounded {
@@ -12100,7 +12100,7 @@ pre .code {
   content: "";
   width: 20px;
   height: 2px;
-  background: #f85c70;
+  background: #47d8e0;
   display: block;
   margin-top: 10px;
 }
