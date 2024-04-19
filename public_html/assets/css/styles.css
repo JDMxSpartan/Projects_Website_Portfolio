@@ -11569,9 +11569,9 @@ pre .code {
 
 .header-title {
   font-size: 2.4rem;
-  font-weight: bold;
+  font-weight: 300;
   opacity: .8;
-  color: #212529;
+  color: #ffffff;
 }
 
 .header-mini {
