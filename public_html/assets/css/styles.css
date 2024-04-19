@@ -180,13 +180,13 @@ sup {
 }
 
 a {
-  color: #f85c70;
+  color: #47d8e0;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #f51330;
+  color: #47d8e0;
   text-decoration: none;
 }
 
@@ -11597,7 +11597,7 @@ p {
 
 .portfolio .filters a.active {
   opacity: 1;
-  background: #f85c70;
+  background: #47d8e0;
   color: #fff;
 }
 
@@ -11779,7 +11779,7 @@ pre .code {
 }
 
 .social-icons .social-link:hover {
-  color: #f85c70;
+  color: #47d8e0;
 }
 
 .navbar {
@@ -11801,7 +11801,7 @@ pre .code {
 }
 
 .navbar .nav-link.active {
-  color: #f85c70 !important;
+  color: #47d8e0 !important;
 }
 
 .navbar .brand {
