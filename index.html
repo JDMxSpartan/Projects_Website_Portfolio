@@ -634,13 +634,23 @@
 
 
     <!-- Download Resume Banner -->
+    
     <section class="section bg-dark py-5">
         <div class="container text-center">
             <h2 class="text-light mb-5 font-weight-normal">Download My Resume</h2>
-            <button class="btn bg-info w-lg" >Download Now</button>
+            <button id="downloadButton" class="btn bg-info w-lg" >Download Now</button>
         </div>
     </section>
-
+    <script>
+        document.getElementById("downloadButton").addEventListener("click", function() {
+            // Replace 'resume_url' with the actual URL of your resume file
+            var resumeUrl = 'https://techlancer.co/Resume_KDH_2024.pdf';
+            
+            // Trigger download
+            window.open(resumeUrl, '_blank');
+        });
+        </script>
+        
 
     <!-- Latest News -->
     <!-- <section class="section" id="blog">
