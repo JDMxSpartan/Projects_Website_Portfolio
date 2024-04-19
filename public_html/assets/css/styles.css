@@ -11579,6 +11579,10 @@ pre .code {
   height: 24rem;
   background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/processor.jpg);
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/processor.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -11598,7 +11602,6 @@ pre .code {
           justify-content: center;
   text-align: center;
   padding: 1rem;
-  background: #DDDDDD;
 }
 
 .section {
