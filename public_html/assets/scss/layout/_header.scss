@@ -72,6 +72,10 @@
 
     // header mini
     &-mini {
+        font-size: 4.4rem;
+        font-weight: 600;
+        color: #ffffff;
+        text-shadow: -7px 7px 4px black;
         min-height: 24rem;
         height: 24rem;
         display: flex;
@@ -79,8 +83,6 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        font-size: 2.4rem;
-        font-weight: bold;
         padding: 1rem;
         background: #DDDDDD;
     }

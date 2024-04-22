@@ -12021,6 +12021,13 @@ pre .code {
   padding: 1rem;
 }
 
+.header-mini title{
+  font-size: 4.4rem;
+  font-weight: 600;
+  color: #ffffff;
+  text-shadow: -7px 7px 4px black;
+}
+
 .section {
   padding: 80px 0;
 }
