@@ -638,24 +638,9 @@
     <section class="section bg-dark py-5">
         <div class="container text-center">
             <h2 class="text-light mb-5 font-weight-normal">Download My Resume</h2>
-            <button id="downloadButton" class="btn bg-info w-lg" >Download Now</button>
+            <button id="downloadButton_Banner" class="btn bg-info w-lg" >Download Now</button>
         </div>
     </section>
-    <script>
-        document.getElementById("downloadButton").addEventListener("click", function() {
-            // Replace 'resume_url' with the actual URL of your resume file
-            var resumeUrl = 'https://techlancer.co/Resume_KDH_2024.pdf';
-            
-            // Trigger download
-            window.open(resumeUrl, '_blank');
-            var link = document.createElement('a');
-            link.href = resumeUrl;
-            link.download = 'KevinDeHoyos_Resume.pdf'; // Change 'your_resume.pdf' to the desired filename
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-        });
-        </script>
         
 
     <!-- Latest News -->
@@ -890,6 +875,34 @@
 
     <!-- JohnDoe js -->
     <script src="public_html/assets/js/johndoe.js"></script>
+    <script>
+        document.getElementById("downloadButton").addEventListener("click", function() {
+            // Replace 'resume_url' with the actual URL of your resume file
+            var resumeUrl = 'https://techlancer.co/Resume_KDH_2024.pdf';
+            
+            // Trigger download
+            window.open(resumeUrl, '_blank');
+            var link = document.createElement('a');
+            link.href = resumeUrl;
+            link.download = 'KevinDeHoyos_Resume.pdf'; // Change 'your_resume.pdf' to the desired filename
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        });
+        document.getElementById("downloadButton_Banner").addEventListener("click", function() {
+            // Replace 'resume_url' with the actual URL of your resume file
+            var resumeUrl = 'https://techlancer.co/Resume_KDH_2024.pdf';
+            
+            // Trigger download
+            window.open(resumeUrl, '_blank');
+            var link = document.createElement('a');
+            link.href = resumeUrl;
+            link.download = 'KevinDeHoyos_Resume.pdf'; // Change 'your_resume.pdf' to the desired filename
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        });
+        </script>
 
 </body>
 </html>
