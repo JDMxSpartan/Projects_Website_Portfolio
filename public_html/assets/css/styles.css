@@ -12021,7 +12021,7 @@ pre .code {
   padding: 1rem;
 }
 
-.header-mini title{
+.header-mini .title{
   font-size: 4.4rem;
   font-weight: 600;
   color: #ffffff;
